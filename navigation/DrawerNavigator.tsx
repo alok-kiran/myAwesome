@@ -59,7 +59,7 @@ const DrawerNavigator: React.FC = () => {
         headerTitleStyle: {
           fontWeight: 'bold',
         },
-        drawerType:  'front',
+        drawerType: 'front',
         swipeEnabled: Platform.OS === 'ios',
         swipeEdgeWidth: Platform.OS === 'ios' ? 20 : 0,
       }}>
